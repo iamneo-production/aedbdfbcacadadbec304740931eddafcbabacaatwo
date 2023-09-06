@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "dgSpecHash": "p6Rj3MODaWICZ+AZtym419yTZKZDLJN4a/+MKODtiOy7+jDZ2EWgDzWi10aNgTo/TBTrfxMwayz93YmRoFiwvQ==",
+  "success": true,
+  "projectFilePath": "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj",
+  "expectedPackageFiles": [
+    "/home/coder/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/nunit/3.0.0/nunit.3.0.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/nunit3testadapter/3.0.10/nunit3testadapter.3.0.10.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "dotnetapp depends on NUnit3TestAdapter (>= 3.0.0) but NUnit3TestAdapter 3.0.0 was not found. An approximate best match of NUnit3TestAdapter 3.0.10 was resolved.",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NUnit 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NUnit3TestAdapter 3.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
